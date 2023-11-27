@@ -1,11 +1,11 @@
-.body {
+body {
   font-family: Arial, sans-serif;
-  background-color: #a4ff98;
+  background-color: #98d8ff;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-
+ 
 h1 {
   color: #333;
   text-align: center;
@@ -13,33 +13,35 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
 }
+
 .Media {
   padding: 6px 12px;
   border-radius: 10px;
   cursor: context-menu;
 }
-
+ 
 .header{
-  background-color: #4eff37;
-margin-top: 10;
+  background-color: #5a6ecf;
+  margin-top: 10;
 }
-
+ 
 .imagem{
-  height: 250px;
+  height: 200px;
   width: 250px;
 }
-
+ 
 button {
   padding: 6px 12px;
-  background-color: #4eff37;
-  color: #000000;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: rgb(81, 206, 255);
+   color: #000000;
+   border: none;
+    border-radius: 4px;
+    cursor: pointer;
   transition: background-color 0.3s;
-}
 
+}
+ 
 button:hover {
-  background-color: #7ff370;
-  color: rgb(0, 0, 0);
+  background-color: #00ffee;
+  color: rgb(0, 0, 0);
 }

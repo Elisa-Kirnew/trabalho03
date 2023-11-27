@@ -1,4 +1,3 @@
-[11:09] ESTEFANI FELIX DA SILVA
 import React, { useState } from 'react'
 function SimpleCounter() {
     const [contador, setContador] = useState(0)
