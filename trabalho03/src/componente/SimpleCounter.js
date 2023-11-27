@@ -1,25 +1,28 @@
-import React, { useState } from 'react';
-
+[11:09] ESTEFANI FELIX DA SILVA
+import React, { useState } from 'react'
 function SimpleCounter() {
-    const [count, setCount] = useState(0);
-
-    const increment = () => {
-        console.log(count);
-        setCount(count + 1)
-    };
-
-    const decrement = () => {
-        console.log(count);
-        setCount(count - 1)
-    };
-
-    return(
-        <div className="simple-counter">
-            <p>Contador: {count} </p>
-            <button onClick={increment}> Incrementar </button>
-            <button onClick={decrement}> Decrementar </button>
+    const [contador, setContador] = useState(0)
+ 
+    const incrementar = () => {
+        setContador(contador + 1)
+    }
+ 
+    const decrementar = () => {
+        setContador(contador - 1)
+    }
+   
+    return (
+        <div>
+            <div className='Temperatura'>
+            <p> Voce clicou {contador} vezes </p>
+            <button onClick={incrementar}> Incrementar </button>
+            <button onClick={decrementar}> Decrementar </button>
+ 
+            </div>
         </div>
-);
-};
-
-export default SimpleCounter;
+    )
+}
+export default SimpleCounter
+ 
+ 
+ 
